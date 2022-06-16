@@ -106,7 +106,7 @@ Esse comando precisa do link do repositório que foi criado no GitHub;
 
 Origin é um alias para o link;
 
-## Verificar repositórios remotos;
+# Verificar repositórios remotos;
 ## git remote -v
 Esse comando verifica os repositórios remoto, no caso o GitHub;
 
@@ -115,7 +115,7 @@ Esse comando verifica os repositórios remoto, no caso o GitHub;
 Esse comando empurra as alterações que estão no diretório local para o diretório remoto;
 
 # Puxar do Remote Repository (GitHub) para Local Repository  
-# git pull
+## git pull
 Esse comando puxa o diretório remoto para o diretório local;
 
 # Extra
