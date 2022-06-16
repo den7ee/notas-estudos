@@ -6,7 +6,7 @@ Esse guia de comandos básicos tem como objetivo facilitar a execução de coman
 - Gerar um par de chaves ssh ed25519;
 - Exibir o valor da chave pública para colar no GitHub;
 - Inicilizar ssh-agent para admistrar as chaves geradas;
-- Instalar o Git no Debian;
+- Instalar o Git no Debian 11;
 - Iniciar um repositório Git em um diretório local;
 - Verificar status de alterações do respositório;
 - Adicionar as alterações de 'Working Area' para 'Staging Area' do Git;
