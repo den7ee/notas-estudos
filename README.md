@@ -1,4 +1,4 @@
-# Guia de comandos básicos Git/GitHub - Desafio Bootcamp Impulso
+# Guia de comandos básicos Git/GitHub + Extra - Desafio Bootcamp Impulso
 
 ## Sobre
 Esse guia de comandos básicos tem como objetivo facilitar a execução de comandos necessários para:
@@ -14,6 +14,7 @@ Esse guia de comandos básicos tem como objetivo facilitar a execução de coman
 - Verificar repositórios remotos do Git;
 - Empurar as alterações de 'Local Repository' do Git para 'Remote Repository' (GitHub);
 - Puxar do 'Remote Repository' (GitHub) para 'Local Repository' do Git;
+- Extra;
 
 ## Sobre o Git
 Git é um sistema livre de controle de versão criado por Linus Torvalds em 2005 como uma alternativa ao CVS no desenvolvimento do Kernel Linux;
