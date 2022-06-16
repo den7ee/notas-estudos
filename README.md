@@ -1,5 +1,16 @@
 # Guia de comandos básicos Git/GitHub - Desafio Bootcamp Impulso
 
+# Sobre
+Esse guia de comandos básicos tem como objetivo facilitar a execução de comandos necessários para:
+- Criar um par de chaves ssh ed25519;
+- 
+- Instalar o Git no Debian;
+- Iniciar um repositório Git em um diretório local;
+- Verificar status de alterações do respositório;
+- Adicionar as alterações de Working Area para Staging Area;
+- Comitar as alterações de Staging Area para Local Repository;
+- Empurar as alterações de Local Repository para Remote Repository(GitHub);
+
 # Sobre o Git
 Git é um sistema livre de controle de versão criado por Linus Torvalds em 2005 como uma alternativa ao CVS no desenvolvimento do Kernel Linux;
 
@@ -55,7 +66,7 @@ Para criar a chave ssh do GitHub vai em Settings no seu perfil/SSH and GPG keys.
 ## ssh-keygen -t ed25519 -C
 Esse comando precisa do e-mail de login do GitHub para funcionar;
 
-Ele gera um par de chaves, uma pública e outra privada com o nome: ed25519 e do tipo SHA256;
+Ele gera um par de chaves, uma pública e outra privada com o nome: ed25519 com tipo de criptografia SHA256;
 
 Após o comando é informado o local onde as chaves foram criadas;
 
@@ -74,7 +85,7 @@ Esse comando irá exibir token da chave gerada;
 
 Uma nova chave é criada clicando na opção: New SSH key;
 
-Digite o nome para identificar a chave e cole o token de ssh gerado com o comando;
+Digite o nome para identificar a chave e cole o token de ssh gerado com o comando cat id_;
 
 
 ## git remote add origin 
