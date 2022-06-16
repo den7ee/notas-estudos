@@ -8,11 +8,12 @@ Esse guia de comandos básicos tem como objetivo facilitar a execução de coman
 - Instalar o Git no Debian;
 - Iniciar um repositório Git em um diretório local;
 - Verificar status de alterações do respositório;
-- Adicionar as alterações de Working Area para Staging Area;
-- Comitar as alterações de Staging Area para Local Repository;
-- Adicionar respositório do remoto do GitHub ao nosso repositório local;
-- Verificar repositórios remotos;
-- Empurar as alterações de Local Repository para Remote Repository (GitHub);
+- Adicionar as alterações de 'Working Area' para 'Staging Area' do Git;
+- Comitar as alterações de 'Staging Area' para 'Local Repository' do Git;
+- Adicionar respositório remoto do GitHub ao nosso repositório local do Git;
+- Verificar repositórios remotos do Git;
+- Empurar as alterações de 'Local Repository' do Git para 'Remote Repository' (GitHub);
+- Puxar do 'Remote Repository' (GitHub) para 'Local Repository' do Git;
 
 ## Sobre o Git
 Git é um sistema livre de controle de versão criado por Linus Torvalds em 2005 como uma alternativa ao CVS no desenvolvimento do Kernel Linux;
@@ -110,5 +111,19 @@ Esse comando verifica os repositórios remoto, no caso o GitHub;
 # git push
 Esse comando empurra as alterações que estão no diretório local para o diretório remoto;
 
-## git pull
+## Puxar do Remote Repository (GitHub) para Local Repository  
+# git pull
 Esse comando puxa o diretório remoto para o diretório local;
+
+## Extra
+# Como o Git identifica as alterações?
+Após o comando git init o SHA1 (Secure Hash Algorithms), produz um número hexadecimal de 40 dígitos;
+
+Cada alteração feita no diretório altera também o número hexadecimal, dessa forma o Git consegue identificar uma alteração;
+
+O começo de cada código hexadecimal do arquivo pode ser visto no GitHub próximo ao botão Code;
+
+Esse código hexadecimal é único para cada ojeto dentro do Git (Blobs, Trees e Commits);
+
+Commits são um conjunto de Trees que são um conjunto de Blobs;
+
