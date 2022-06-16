@@ -56,6 +56,7 @@ Cole em: Settings/SSH and GPG keys no GitHub após clicar em: New SSH key e dar 
 # Inicilizar ssh-agent para admistrar as chaves geradas
 ## $(ssh-agent -s)
 O comando irá retornar o pid de números de um Agent;
+
 Ele deve ser executado no diretório onde está o par de chaves ssh;
 
 # Instalar o Git no Debian;
