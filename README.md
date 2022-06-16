@@ -1,6 +1,10 @@
-# Guia de uso básico Git/GitHub
+# Guia de comandos Git/GitHub
 
 ## Sobre
+Essas são minhas anotações sobre o móduto Git/Git Hub do Bootcamp da Impulso.
+
+
+## Sobre o Git
 Git é um sistema livre de controle de versão criado por Linus Torvalds em 2005 como uma alternativa ao CVS no desenvolvimento do Kernel Linux;
 
 Por ser um sistema seguro e distribuído o Git foi adotado por muitos outros projetos;
@@ -41,6 +45,13 @@ Usamos o comando git status para verificar o status do git no diretório;
 O Git irá informar que não há alterações a serem adicionadas com o comando git add (Recomeça o ciclo);
 
 
-# GitHub
+# Sobre o GitHub
+GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git;
 
+Foi criado em 2008 e adquirido pela Microsoft em 2018;
+
+## git remote add origin 
+Com esse comando adicionamos o nosso respositório do remoto do git hub ao nosso repositório local;
+
+Esse comando pre
 
