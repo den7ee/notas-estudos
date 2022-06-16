@@ -32,13 +32,13 @@ Para empurrar as alterações do repositório local (Local Repository no Git) pa
 
 Essa foi uma alteração feita no GitHub em 2021, antes disso era possível o push apenas com username e senha do GitHub;
 
-Para criar a chave ssh do GitHub vai em Settings no seu perfil/SSH and GPG keys.
+Para criar a chave ssh do GitHub vá em Settings no seu perfil e depois em SSH and GPG keys.
 
 # Gerar um par de chaves ssh ed25519;
 ## ssh-keygen -t ed25519 -C
 Esse comando precisa do e-mail de login do GitHub para funcionar;
 
-Ele gera um par de chaves, uma pública e outra privada com o nome: ed25519 com tipo de criptografia SHA256;
+Ele gera um par de chaves, uma pública e outra privada com o nome ed25519 do tipo de criptografia SHA256;
 
 Após o comando é informado o local onde as chaves foram criadas;
 
