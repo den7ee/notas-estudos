@@ -1,4 +1,4 @@
-# Guia de comandos Git/GitHub - Desafio Bootcamp Impulso
+# Guia de comandos básicos Git/GitHub - Desafio Bootcamp Impulso
 
 # Sobre o Git
 Git é um sistema livre de controle de versão criado por Linus Torvalds em 2005 como uma alternativa ao CVS no desenvolvimento do Kernel Linux;
@@ -40,11 +40,42 @@ Usamos o comando git status para verificar o status do git no diretório;
 
 O Git irá informar que não há alterações a serem adicionadas com o comando git add (Recomeça o ciclo);
 
-
 # Sobre o GitHub
 GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git;
 
 Foi criado em 2008 e adquirido pela Microsoft em 2018;
+
+## chave ssh
+Para empurrar as alterações do repositório local (Local Repository no Git) para o repositório local no GitHub é necessário uma conexão ssh;
+
+Essa foi uma alteração feita no GitHub em 2021, antes disso era possível o push apenas com username e senha do GitHub;
+
+Para criar a chave ssh do GitHub vai em Settings no seu perfil/SSH and GPG keys.
+
+## ssh-keygen -t ed25519 -C
+Esse comando precisa do e-mail de login do GitHub para funcionar;
+
+Ele gera um par de chaves, uma pública e outra privada com o nome: ed25519 e do tipo SHA256;
+
+Após o comando é informado o local onde as chaves foram criadas;
+
+Depois disso será solicitado uma senha 2x;
+
+## cat id_
+Esse comando deve ser feito no diretório que foi informado no comando ssh-keygen;
+
+Ele deve ser completado com o arquivo nomedachave.pub;
+
+Esse comando irá exibir token da chave gerada;
+
+
+## SSH and GPG keys
+É nesse local onde vai ficar a chave SSH no GitHub;
+
+Uma nova chave é criada clicando na opção: New SSH key;
+
+Digite o nome para identificar a chave e cole o token de ssh gerado com o comando;
+
 
 ## git remote add origin 
 Com esse comando adicionamos o nosso respositório do remoto do GitHub ao nosso repositório local;
@@ -59,4 +90,5 @@ Esse comando verifica os repositórios remoto, no caso o GitHub;
 ## git push
 Esse comando empurra as alterações que estão no diretório local para o diretório remoto;
 
-
+## git pull
+Esse comando puxa o diretório remoto para o diretório local;
