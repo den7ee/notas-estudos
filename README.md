@@ -47,7 +47,16 @@ GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle 
 Foi criado em 2008 e adquirido pela Microsoft em 2018;
 
 ## git remote add origin 
-Com esse comando adicionamos o nosso respositório do remoto do git hub ao nosso repositório local;
+Com esse comando adicionamos o nosso respositório do remoto do GitHub ao nosso repositório local;
 
-Esse comando pre
+Esse comando precisa do link do repositório que foi criado no GitHub;
+
+Origin é um alias para o link;
+
+## git remote -v
+Esse comando verifica os repositórios remoto, no caso o GitHub;
+
+## git push
+Esse comando empurra as alterações que estão no diretório local para o diretório remoto;
+
 
