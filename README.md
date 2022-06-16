@@ -1,8 +1,4 @@
-# Guia de comandos Git/GitHub
-
-## Sobre
-Essas são minhas anotações sobre o móduto Git/Git Hub do Bootcamp da Impulso.
-
+# Guia de comandos Git/GitHub - Desafio Bootcamp Impulso
 
 ## Sobre o Git
 Git é um sistema livre de controle de versão criado por Linus Torvalds em 2005 como uma alternativa ao CVS no desenvolvimento do Kernel Linux;
