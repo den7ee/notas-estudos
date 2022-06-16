@@ -28,9 +28,9 @@ GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle 
 Foi criado em 2008 e adquirido pela Microsoft em 2018;
 
 ## Sobre a chave ssh
-Para empurrar as alterações do repositório local (Local Repository no Git) para o repositório local no GitHub é necessário uma conexão ssh;
+Para empurrar as alterações do repositório local (Local Repository no Git) para o repositório remoto no GitHub é necessário uma conexão ssh;
 
-Essa foi uma alteração feita no GitHub em 2021, antes disso era possível o push apenas com username e senha do GitHub;
+Essa foi uma alteração feita no GitHub em 2021, antes disso era possível fazer o push apenas com username e senha do GitHub;
 
 Para criar a chave ssh do GitHub vá em Settings no seu perfil e depois em SSH and GPG keys.
 
