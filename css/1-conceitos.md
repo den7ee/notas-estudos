@@ -1,10 +1,11 @@
-# Sobre
-css é uma linguagem de estitlo e criada em 1996 com o objetivo de formatar páginas em Html dando regras de estilo para elementos ou grupo de elementos;
+O navegador representa os elementos html como uma caixa retangular de 4 camadas;
 
-# Seletores
-Elementos html como: a, p, h1, h3...
+Isso é chamado de box model e as camadas são: margin, border, padding e content,
 
-IDs e Classes: .class #id
+margin é o espaçamento entre os elementos;
 
-# Estrutura
-É composto por seletores (a, p, h1, h3) e declarações dentro de um par de chaves {color: blue, font-size: 14px}
+border circula o padding e content, pode-se alterar largura e cor;
+
+padding é o espaçamento entre border e content;
+
+content é o texto, palavra, imagem, vídeo ou qualquer outro conteúdo do html;

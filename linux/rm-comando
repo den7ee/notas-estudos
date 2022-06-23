@@ -1,0 +1,21 @@
+Existem seis opções de comando rm
+
+-f – exclui arquivos somente leitura sem qualquer confirmação.
+
+-i – Solicita confirmação antes de excluir todos os arquivos.
+Se você usar as opções -f e -i para o comando rm, então aquela que aparece por último no formato de comando (no terminal) é usada pelo rm.
+
+-q – Desativa todas as mensagens de aviso.
+
+-R ou -r – Exclui o diretório e os arquivos na direção recursiva, o diretório especificado junto com seu subdiretório e arquivos.
+
+-v – Exibe os nomes dos arquivos no terminal que está sendo excluído.
+
+-I – Exibe mensagem quando você está excluindo mais de 3 arquivos por vez.
+
+Você nunca deve usar o comando rm junto com o sudo no seguinte formato:
+Terminal
+sudo rm -R /, rm -f / *
+Terminal
+sudo rm -r /
+Assim, os comandos sudo rm -R /, rm -f / * ou sudo rm -r / servem para apagar todos os arquivos e dados no diretório raiz e em todos os volumes montados. E por fim, a quebra total e irrecuperável do sistema. Muito cuidado com este comando.
