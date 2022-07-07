@@ -56,10 +56,16 @@ Esse comando irá exibir token da chave gerada;
 
 Cole em: Settings/SSH and GPG keys no GitHub após clicar em: New SSH key e dar um nome para identificar a sua chave ssh; 
 
-## $(ssh-agent -s)
+## eval $(ssh-agent -s)
 O comando irá retornar o pid de números de um Agent;
 
 Ele deve ser executado no diretório onde está o par de chaves ssh;
+
+## ssh-add 
+Esse comando adiciona a chave ao agente;
+
+Deve ser completado com o arquivo id_ed25519 (Chave privada);
+
 
 ## apt-get install git
 O Git pode ser instalado em Linux, OSx e Windows;
