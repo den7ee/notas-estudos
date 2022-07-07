@@ -39,7 +39,7 @@ Essa foi uma alteração feita no GitHub em 2021, antes disso era possível faze
 Para criar a chave ssh do GitHub vá em Settings no seu perfil e depois em SSH and GPG keys.
 
 ## ssh-keygen -t ed25519 -C
-Esse comando precisa do e-mail de login do GitHub para funcionar;
+Esse comando precisa do e-mail de login do GitHub para funcionar. Usar GitBash no Windows;
 
 Ele gera um par de chaves, uma pública e outra privada com o nome ed25519 do tipo de criptografia SHA256;
 
