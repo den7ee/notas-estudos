@@ -15,13 +15,13 @@ Inicia o flex-container (elemento pai), agrupa e organiza os flex-items (element
 ## flex-direction:
 Define a direção (sentido) do eixo principal;
 
-row - Sentido padrão (default) é em linha (row);
+- row - Sentido padrão (default) é em linha (row);
 
-row-reverse - Invertido (Direita pra esquerda);
+- row-reverse - Invertido (Direita pra esquerda);
 
-column - Exibir em coluna de cima pra baixo;
+- column - Exibir em coluna de cima pra baixo;
 
-column-reverse - Exibir em coluna de baixo pra cima;
+- column-reverse - Exibir em coluna de baixo pra cima;
 
 ## justify-content:
 Alinha os elementos no eixo principal;
